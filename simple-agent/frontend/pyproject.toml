@@ -1,0 +1,11 @@
+[project]
+name = "biofigure-agent-frontend"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "a2a-sdk~=0.3.22",
+    "httpx",
+    "google-auth",
+]
